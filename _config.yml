@@ -9,7 +9,7 @@ version: 2
 name: Amna Rahman
 title: Language Data Analyst
 email: amnarahman00@gmail.com
-website: www.github.com/[YourGitHubUsername]
+website: www.github.com/amna-rahman
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -18,11 +18,7 @@ darkmode: false
 github_username: amna-rahman
 linkedin_username: amnarahman
 
-# Additional icon links
-additional_links:
-- title: Personal Portfolio
-  icon: fas fa-globe
-  url: https://www.[YourPortfolio].com
+
 
 # About Section
 about_profile_image: images/profile.jpg
@@ -36,43 +32,75 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Book Genre Classification using Text Analysis
-        link: github.com/[YourGitHubUsername]/book-genre-classification
-        additional_links:
-          - title: GitHub Repository
-            icon: fab fa-github
-            url: github.com/[YourGitHubUsername]/book-genre-classification
-        quote: >
-          This project focuses on leveraging NLP techniques to classify books into genres with high accuracy.
+        title: CD Pipeline Using AWS
         description: |
-          This project helped me deepen my knowledge of NLP algorithms, data preprocessing, and feature extraction using Python.
+          A CD pipeline that will deploy your web application automatically anytime your source code is updated.
+          **Technologies:** GitHub, EBS, AWS CodeBuild, AWS CodePipeline
 
-   
+      - layout: top-middle
+        title: Dockerized Blog
+        description: |
+          A blog application using Flask.
+          **Technologies:** Flask, HTML, CSS, Python. Dockerized with Dockerfile
+
+      - layout: top-middle
+        title: Diabetes Prediction Using ML
+        description: |
+          Developed an end-to-end diabetes prediction system using SVM in Python.
+          **Technologies:** Machine Learning, SVM, Python
+
+      - layout: top-middle
+        title: Spelling Correction with Java
+        description: |
+          Implemented NearbyWords and SpellingSuggest classes for spelling correction using letter mutations such as insertions, deletions, and substitutions.
+
+      - layout: top-middle
+        title: Book Genre Classification Using Text Analysis
+        description: |
+          Classifies books into genres based on their textual descriptions using text processing and machine learning techniques.
+          **Technologies:** Python, NLTK/spaCy, Scikit-learn, Pandas, Matplotlib/Seaborn
 
   - title: Experience
     layout: list
     content:
-      - layout: left
-        title: ALIVA Tech Pvt LTD
-        link: alivatech.com
-        sub_title: Language Data Analyst
-        caption: 2024 - Present
-        quote: >
-          Working on NLP tasks, automation, and feature extraction using Python and R.
+      - layout: top-middle
+        title: Front End Developer
+        sub_title: ACM Chapter / Freelancing
+        caption: 2020-2022
         description: |
-          My role involves analyzing linguistic data, automating workflows, and developing language models for better AI-driven insights.
+          Proficient in JSON/YAML, Angular, HTML5, CSS, JavaScript, C++, and Python.
+          Experienced in full-stack development, corporate site management, and cross-functional team collaboration.
 
-      - layout: left
-        title: AL KHIDMAT Foundation
-        sub_title: Data Analyst Intern
-        caption: 2024 - 2025
+      - layout: top-middle
+        title: DevOps Engineer / ML OPS Internship
+        sub_title: ALIVA Tech Pvt LTD
+        caption: 2022-2023
         description: |
-          Focused on data visualization, statistical analysis, and deriving actionable insights from large datasets.
+          Designed and implemented CI/CD pipelines for efficient deployment.
+          Managed Docker containers, orchestrated Kubernetes clusters, and automated tasks with Bash and Python.
+          Utilized Git for version control and deployed applications on AWS for optimal performance.
+
+      - layout: top-middle
+        title: Data Analyst Internship
+        sub_title: AL KHIDMAT Foundation
+        caption: 2024-2025
+        description: |
+          Proficient in SQL, Excel, Power BI, Tableau, and Python for data analysis.
+          Experienced in data management, visualization, and providing insights for decision-making and process optimization.
+
+      - layout: top-middle
+        title: Language Data Analyst
+        sub_title: ALIVA Tech Pvt LTD
+        caption: 2023-Present
+        description: |
+          Analyzed text data using NLP, tokenization, and machine learning.
+          Developed feature extraction models and contributed to language data processing projects.
+
 
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Virtual University of Pakistan
         caption: 2021 - 2025
         sub_title: Bachelor of Computer Science
@@ -86,7 +114,7 @@ content:
       - Traveling
       - Gaming
       - Researching AI Ethics
-      - [Learning new languages](https://www.duolingo.com/)
+      - Learning new languages(
 
 # Footer
 footer_show_references: true
