@@ -1,0 +1,102 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Amna Rahman
+title: Language Data Analyst
+email: amnarahman00@gmail.com
+website: www.github.com/[YourGitHubUsername]
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: amna-rahman
+linkedin_username: amnarahman
+
+# Additional icon links
+additional_links:
+- title: Personal Portfolio
+  icon: fas fa-globe
+  url: https://www.[YourPortfolio].com
+
+# About Section
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, I am Amna Rahman, a Language Data Analyst with a strong background in Natural Language Processing, AWS, and Data Analysis. I am passionate about exploring AI translation systems and addressing linguistic biases in machine learning applications.
+
+  I am most skilled in: <mark>AWS</mark>, <mark>Natural Language Processing</mark>, and <mark>Data Analysis</mark>
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Book Genre Classification using Text Analysis
+        link: github.com/[YourGitHubUsername]/book-genre-classification
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: github.com/[YourGitHubUsername]/book-genre-classification
+        quote: >
+          This project focuses on leveraging NLP techniques to classify books into genres with high accuracy.
+        description: |
+          This project helped me deepen my knowledge of NLP algorithms, data preprocessing, and feature extraction using Python.
+
+   
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: ALIVA Tech Pvt LTD
+        link: alivatech.com
+        sub_title: Language Data Analyst
+        caption: 2024 - Present
+        quote: >
+          Working on NLP tasks, automation, and feature extraction using Python and R.
+        description: |
+          My role involves analyzing linguistic data, automating workflows, and developing language models for better AI-driven insights.
+
+      - layout: left
+        title: AL KHIDMAT Foundation
+        sub_title: Data Analyst Intern
+        caption: 2024 - 2025
+        description: |
+          Focused on data visualization, statistical analysis, and deriving actionable insights from large datasets.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Virtual University of Pakistan
+        caption: 2021 - 2025
+        sub_title: Bachelor of Computer Science
+        description: |
+          Specialized in Artificial Intelligence, Data Analysis, and Full-Stack Development. Participated in multiple academic projects related to NLP and Machine Learning.
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Outside my professional life, I enjoy:
+      - Traveling
+      - Gaming
+      - Researching AI Ethics
+      - [Learning new languages](https://www.duolingo.com/)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
